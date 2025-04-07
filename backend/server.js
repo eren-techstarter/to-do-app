@@ -91,7 +91,8 @@ app.delete('/delete/:id', (req, res) => {
             res.status(400).json({ error: err.message });
             return;
         }
-        res.json({ message: "Eingabe gelöscht" });
+        
+        res.json({ message: "Eingabe gelöscht!!" });
     });
 });
 
